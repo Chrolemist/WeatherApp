@@ -86,4 +86,4 @@ jobs:
       # - The project file contains information about the project being of type "xUnit"
       # - The "dotnet test" command finds all tests in WeatherServiceTests and executes them
       - name: Test
-        run: dotnet test
+        run: dotnet test WeatherApp/WeatherService/WeatherService.sln
